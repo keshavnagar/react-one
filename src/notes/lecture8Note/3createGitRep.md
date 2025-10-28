@@ -16,3 +16,6 @@ here i also push my code okay so this is the change that i write here is save in
 like now save my changes in this branch 
 by git add. 
 git commit........
+and than i also git push -u origin dynamicVar
+like i successfully done the creating new branch and add and commit things inside them and also remove my fear from this side 
+now i again commit something inside them to send my successfull message to the github
