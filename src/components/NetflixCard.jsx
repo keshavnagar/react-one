@@ -34,3 +34,12 @@ export const NetflixCard = () => {
 };
 
 // export default NetflixCard;
+
+export const Footer = () => {
+    return(
+        <>
+        <h1>Copyright</h1>
+        <p>keshav</p>
+        </>
+    )
+}

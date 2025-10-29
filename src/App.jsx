@@ -1,11 +1,12 @@
 import React from "react";
 import Practice from "./interview/Practice";
-import {NetflixCard} from "./components/NetflixCard"
+import { NetflixCard, Footer } from "./components/NetflixCard";
 const App = () => {
   return (
     <>
       <NetflixCard />
       <NetflixCard />
+      <Footer />
       {/* <Practice/> */}
     </>
   );
