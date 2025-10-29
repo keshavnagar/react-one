@@ -20,6 +20,9 @@ const NetflixCard = () => {
     return genre;
   };
   const age = 17;
+  // const canWatch = "not available";
+  // if (age >= 18) canWatch = "watch now";
+  const canWatch = age >= 18 ? "watch now" : "not available";
   return (
     <>
       <div>
@@ -29,7 +32,8 @@ const NetflixCard = () => {
       <h2>Rating: {6 + 2.1}</h2>
       <p>{summary}</p>
       <p>{returnGenre()}</p>
-      <button>{age >= 18 ? "watch" : "not watch"}</button>
+      {/* <button>{age >= 18 ? "watch" : "not watch"}</button> */}
+      <button>{canWatch}</button>
     </>
   );
 };

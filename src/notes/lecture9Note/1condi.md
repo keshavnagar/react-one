@@ -10,3 +10,23 @@ aur fir vo adult hame curly braces ke andar dikhega jaisa ki ham jante hai ki ko
 
 so it's easy
 
+so the first thing we do in our app's netflixcard comp, in which we just add a variable age and assign any value 
+and write the ternary operator inside the jsx syntax to check if age is >= 18 than watch other wise not watch
+
+than we also have another way 
+like we have a variable inside 
+
+const canWatch = "watch not"
+if(age >= 18 ) cantwatch = "watch"
+
+so we first comment the first way 
+and than we put our second way 
+
+like another way that i find like above return portion we just add assign the varibale 
+
+const canWatch = age >=18 ? "watch" : "not avaiable"
+
+and put this canwatch into our return portion
+
+
+
