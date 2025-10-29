@@ -19,8 +19,9 @@ const NetflixCard = () => {
     const genre = "horror";
     return genre;
   };
+  const age = 17;
   return (
-    <div>
+    <>
       <div>
         <img src={image} alt="" />
       </div>
@@ -28,6 +29,7 @@ const NetflixCard = () => {
       <h2>Rating: {6 + 2.1}</h2>
       <p>{summary}</p>
       <p>{returnGenre()}</p>
-    </div>
+      <button>{age >= 18 ? "watch" : "not watch"}</button>
+    </>
   );
 };

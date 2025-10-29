@@ -19,3 +19,5 @@ git commit........
 and than i also git push -u origin dynamicVar
 like i successfully done the creating new branch and add and commit things inside them and also remove my fear from this side 
 now i again commit something inside them to send my successfull message to the github
+so i also learn about how i merge branch and all the added and commits of my dynamicVar branch is show in our main branch now 
+so for merge i use first git switch main to switch into main branch and than git merge dynamicVar it ensure we merge both branch and all the things inside the new branches shift into my main branch and also i push these things into github so it also show online 
