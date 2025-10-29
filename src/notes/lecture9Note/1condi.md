@@ -28,5 +28,7 @@ const canWatch = age >=18 ? "watch" : "not avaiable"
 
 and put this canwatch into our return portion
 
+we have 4th way to create a funciton and call that with our {}
+
 
 
