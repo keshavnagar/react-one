@@ -10,17 +10,18 @@ const App = () => {
 export default App;
 
 const NetflixCard = () => {
+  const name = " Chilling Adventures of Sabrina";
+  const rating = 8.9;
+  const summary =
+    "Chilling Adventures of Sabrina is an American supernatural horror television series developed by Roberto Aguirre-Sacasa for Netflix";
   return (
     <div>
       <div>
         <img src="sabrina.jpg" alt="" />
       </div>
-      <h1>Name: Chilling Adventures of Sabrina</h1>
-      <h2>Rating: 8.9</h2>
-      <p>
-        Chilling Adventures of Sabrina is an American supernatural horror
-        television series developed by Roberto Aguirre-Sacasa for Netflix
-      </p>
+      <h1>Name: {name}</h1>
+      <h2>Rating: {rating}</h2>
+      <p>{summary}</p>
     </div>
   );
 };
