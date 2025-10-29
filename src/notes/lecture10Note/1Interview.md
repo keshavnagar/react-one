@@ -50,3 +50,6 @@ export default Practice;
 so here i solve this probelm by to add ! in front of students.length or i also put === operator and says is it 0 or not like i just add this one thing belo and than my practice.jsx file
 
  <p>{students.length===0 && "no students found"}</p>  
+
+   <p>{Boolean(!students.length) && "no students found"}</p>   this is the third way to do same thing as well
+   
