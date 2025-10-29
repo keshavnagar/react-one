@@ -19,12 +19,14 @@ const NetflixCard = () => {
     const genre = "horror";
     return genre;
   };
-  const age = 117;
+  const age = 197;
   // const canWatch = "not available";
   // if (age >= 18) canWatch = "watch now";
   // const canWatch = age >= 18 ? "watch now" : "not available";
   const canWatch = () => {
-    return age >= 18 ? "watch" : "not avaiable";
+    // return age >= 18 ? "watch" : "not avaiable";
+    if (age >= 18) return "watch";
+    else return "not available";
   };
   return (
     <>
