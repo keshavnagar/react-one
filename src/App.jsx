@@ -21,7 +21,7 @@ const NetflixCard = () => {
         <img src={image} alt="" />
       </div>
       <h1>{name}</h1>
-      <h2>Rating: {rating}</h2>
+      <h2>Rating: {6+2.1}</h2>
       <p>{summary}</p>
     </div>
   );
