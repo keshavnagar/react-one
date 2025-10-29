@@ -15,14 +15,19 @@ const NetflixCard = () => {
   const summary =
     "Chilling Adventures of Sabrina is an American supernatural horror television series developed by Roberto Aguirre-Sacasa for Netflix";
   const image = "sabrina.jpg";
+  const returnGenre = () => {
+    const genre = "horror";
+    return genre;
+  };
   return (
     <div>
       <div>
         <img src={image} alt="" />
       </div>
       <h1>{name}</h1>
-      <h2>Rating: {6+2.1}</h2>
+      <h2>Rating: {6 + 2.1}</h2>
       <p>{summary}</p>
+      <p>{returnGenre()}</p>
     </div>
   );
 };
