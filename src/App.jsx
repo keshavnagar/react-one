@@ -1,6 +1,6 @@
 import React from "react";
 import Practice from "./interview/Practice";
-import NetflixCard from "./components/NetflixCard"
+import {NetflixCard} from "./components/NetflixCard"
 const App = () => {
   return (
     <>

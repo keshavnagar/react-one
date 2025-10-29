@@ -21,3 +21,6 @@ and that is
 NAMED import and export
 
 like that think we do with our [netflix card component ](../../components/NetflixCard.jsx)
+
+so the change is we add export in before the component name in component file and add the component name in import section of app component in our {}
+

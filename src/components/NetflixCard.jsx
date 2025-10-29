@@ -1,4 +1,4 @@
-const NetflixCard = () => {
+export const NetflixCard = () => {
   const name = " Chilling Adventures of Sabrina";
   const rating = 8.99;
   const summary =
@@ -23,7 +23,7 @@ const NetflixCard = () => {
         <img src={image} alt="" />
       </div>
       <h1>{name}</h1>
-      <h2>Rating: {6 + 2.1}</h2>
+      <h2>Rating: {6 +2.1+ 2.1}</h2>
       <p>{summary}</p>
       <p>{returnGenre()}</p>
       {/* <button>{age >= 18 ? "watch" : "not watch"}</button> */}
@@ -33,4 +33,4 @@ const NetflixCard = () => {
   );
 };
 
-export default NetflixCard;
+// export default NetflixCard;
