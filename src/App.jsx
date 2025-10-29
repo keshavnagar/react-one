@@ -1,9 +1,11 @@
 import React from "react";
+import Practice from "./interview/Practice";
 const App = () => {
   return (
     <>
-      <NetflixCard />
-      <NetflixCard />
+      {/* <NetflixCard />
+      <NetflixCard /> */}
+      <Practice/>
     </>
   );
 };
