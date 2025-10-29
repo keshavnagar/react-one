@@ -32,3 +32,9 @@ but in name export component we export more than two export components or more t
 
 so in  [netflix card component ](../../components/NetflixCard.jsx) we have two exports in single file that is not possible in default component or file import export system so this way is optimize 
 
+combined import export system 
+
+so in which we do both import export with default way and named way 
+
+so we do in our that component okya
+

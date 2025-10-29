@@ -1,4 +1,5 @@
-export const NetflixCard = () => {
+ const NetflixCard = () => { //remove the export from here for defaultly export this 
+    // export const NetflixCard = () => {
   const name = " Chilling Adventures of Sabrina";
   const rating = 8.99;
   const summary =
@@ -33,7 +34,16 @@ export const NetflixCard = () => {
   );
 };
 
-// export default NetflixCard;
+export default NetflixCard;//default
+// uncomment above one to create a combined export system of default and named
+
+export const Header = () => {
+    return(
+        <>
+        <h1>Series list</h1>
+        </>
+    )
+}//named 
 
 export const Footer = () => {
     return(
@@ -42,4 +52,4 @@ export const Footer = () => {
         <p>keshav</p>
         </>
     )
-}
+}//named
