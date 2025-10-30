@@ -1,5 +1,5 @@
 import seriesData from "../api/seriesData.json";
-const NetflixCard = () => {
+const NetflixSeries = () => {
   return (
     <ul>
       {seriesData.map((series) => (
@@ -25,4 +25,4 @@ const NetflixCard = () => {
     </ul>
   );
 };
-export default NetflixCard;
+export default NetflixSeries;
