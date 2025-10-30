@@ -41,3 +41,5 @@ const {cast, description, img} = series
 make sure all three properties should be inside the series object 
 
 aur fir inka direct use kar sakte hai hamare jsx ke andar ab ye chij me apne compeonent [SeriesCard](../../components/SeriesCard.jsx)
+
+so i succesfully destructurin in seriescard.jsx component in which i have silly mistake like that img_url i used but dont mention in props declaring so i used them with the the help of in like i do not add that img url in my {} but use in img src that's why it is not render now the thing is successfully done
