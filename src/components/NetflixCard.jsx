@@ -1,55 +1,23 @@
- const NetflixCard = () => { //remove the export from here for defaultly export this 
-    // export const NetflixCard = () => {
-  const name = " Chilling Adventures of Sabrina";
-  const rating = 8.99;
-  const summary =
-    "Chilling Adventures of Sabrina is an American supernatural horror television series developed by Roberto Aguirre-Sacasa for Netflix";
-  const image = "sabrina.jpg";
-  const returnGenre = () => {
-    const genre = "horror";
-    return genre;
-  };
-  const age = 17;
-  // const canWatch = "not available";
-  // if (age >= 18) canWatch = "watch now";
-  // const canWatch = age >= 18 ? "watch now" : "not available";
-  const canWatch = () => {
-    // return age >= 18 ? "watch" : "not avaiable";
-    if (age >= 18) return "watch";
-    return "not available";
-  };
+import seriesData from "../api/seriesData.json";
+const NetflixCard = () => {
   return (
-    <>
-      <div>
-        <img src={image} alt="" />
-      </div>
-      <h1>{name}</h1>
-      <h2>Rating: {6 +2.1+ 2.1}</h2>
-      <p>{summary}</p>
-      <p>{returnGenre()}</p>
-      {/* <button>{age >= 18 ? "watch" : "not watch"}</button> */}
-      {/* <button>{canWatch}</button> */}
-      <button>{canWatch()}</button>
-    </>
+    <ul>
+      {seriesData.map((series) => (
+        <li key={series.id}>
+          <div>
+            <img width={400} height={200} src={series.img_url} alt={series.name} />
+          </div>
+          <h1>Name: {series.name}</h1>
+          <h2>Rating: {series.rating}</h2>
+          <p>Desc: {series.description}</p>
+          <p>Genre: {series.genre}</p>
+          <p>Cast: {series.cast}</p>
+          <a href={series.watch_url} target="_blank">
+            <button>watch now</button>
+          </a>
+        </li>
+      ))}
+    </ul>
   );
 };
-
-export default NetflixCard;//default
-// uncomment above one to create a combined export system of default and named
-
-export const Header = () => {
-    return(
-        <>
-        <h1>Series list</h1>
-        </>
-    )
-}//named 
-
-export const Footer = () => {
-    return(
-        <>
-        <h1>Copyright</h1>
-        <p>keshav</p>
-        </>
-    )
-}//named
+export default NetflixCard;
