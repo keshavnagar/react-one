@@ -5,7 +5,12 @@ const NetflixCard = () => {
       {seriesData.map((series) => (
         <li key={series.id}>
           <div>
-            <img width={400} height={200} src={series.img_url} alt={series.name} />
+            <img
+              width={400}
+              height={200}
+              src={series.img_url}
+              alt={series.name}
+            />
           </div>
           <h1>Name: {series.name}</h1>
           <h2>Rating: {series.rating}</h2>
