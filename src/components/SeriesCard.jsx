@@ -1,6 +1,6 @@
-const SeriesCard = ({series}) => {
+const SeriesCard = ({ series }) => {
   return (
-    <li style={{listStyle: "none"}}>
+    <li style={{ listStyle: "none" }}>
       <div>
         <img width={400} height={200} src={series.img_url} alt={series.name} />
       </div>
