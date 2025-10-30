@@ -1,15 +1,16 @@
-const SeriesCard = ({ series }) => {
+const SeriesCard = ({series}) => {
+  const { name, rating, description, genre, cast, watch_url, img_url } = series;
   return (
     <li style={{ listStyle: "none" }}>
       <div>
-        <img width={400} height={200} src={series.img_url} alt={series.name} />
+        <img width={400} height={200} src={img_url} alt={name} />
       </div>
-      <h1>Name: {series.name}</h1>
-      <h2>Rating: {series.rating}</h2>
-      <p>Desc: {series.description}</p>
-      <p>Genre: {series.genre}</p>
-      <p>Cast: {series.cast}</p>
-      <a href={series.watch_url} target="_blank">
+      <h1>Name: {name}</h1>
+      <h2>Rating: {rating}</h2>
+      <p>Desc: {description}</p>
+      <p>Genre: {genre}</p>
+      <p>Cast: {cast}</p>
+      <a href={watch_url} target="_blank">
         <button>watch now</button>
       </a>
     </li>
