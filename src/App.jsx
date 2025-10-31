@@ -6,8 +6,8 @@ import Profile from "./interview/Profile";
 const App = () => {
   return (
     <>
-      <Profile />
-      {/* <NetflixSeries /> */}
+      {/* <Profile /> */}
+      <NetflixSeries />
       {/* <Practice/> */}
     </>
   );
