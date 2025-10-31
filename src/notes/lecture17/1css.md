@@ -32,3 +32,12 @@ we also add gap between rows and columns both
 jaise grid row gap and columm gap ka ek short cut hai grid gap jisme yadi apne ko done me ek jaisi gap chahiye to apan iska use kar sakte hai 
 
 so i copy the code from the css sources that given in this lecture number 17 of branch name css
+
+one more thing we do here is like we create a section tag over the netflixseries component that contain all the netflix series cards that are in netflix series components
+
+now we style that section like jaise apan  ne jo list of series bana rakhi hai vaise hee apne ko yadi mx player ki series lani ho ya kisi dusrre platform ki sereis lani ho to ham un sabko ek container me rakh sakte hai aur vo layout balance rahe isliye ham is container ko secotion ke andar rakhenge and done
+
+so here we do just simple index.css basic to just do simple style 
+
+now we do one thing that is we style individually components with their saparete file
+
