@@ -23,14 +23,14 @@
 }
 
 .yellow {
-  background-color: rgb(255, 251, 2);
+  background-color: rgb(255, 254, 169);
   width: fit-content;
   padding: 10px;
   border-radius: 10px;
-  color: rgb(97, 97, 97);
+  color: rgb(117, 117, 117);
 }
 
-button {
+/* button {
   background-color: var(--main-color);
   padding: 10px;
   border: 0;
@@ -39,4 +39,4 @@ button {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.5rem;
-}
+} */
