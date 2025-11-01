@@ -14,7 +14,23 @@
   margin-bottom: 1.2rem;
 }
 
-/* button {
+.green {
+  background-color: rgb(101, 222, 101);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(255, 250, 250);
+}
+
+.yellow {
+  background-color: rgb(255, 251, 2);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(97, 97, 97);
+}
+
+button {
   background-color: var(--main-color);
   padding: 10px;
   border: 0;
@@ -23,4 +39,4 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.5rem;
-} */
+}
