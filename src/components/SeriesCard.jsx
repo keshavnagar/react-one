@@ -1,7 +1,8 @@
+import "./SeriesCard.css"
 const SeriesCard = ({series}) => {
   const { name, rating, description, genre, cast, watch_url, img_url } = series;
   return (
-    <li style={{ listStyle: "none" }}>
+    <li className="grid-item">
       <div>
         <img width={400} height={200} src={img_url} alt={name} />
       </div>
