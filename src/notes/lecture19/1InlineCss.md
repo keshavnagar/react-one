@@ -73,6 +73,10 @@ now the problem in our code that is insid the file [netflixCard](../../component
 
  one solution we do for this like in our css file we saparate the css file for this and add a class that consist this same style in that and than we apply the same class in every tag here 
 
- so now we remove this inline css , we do this same thing with flex property 
+ so now we remove this inline css , we do this same thing with flex property gap
+
+ one more thing here we do also use the color theme from our index.css file 
+
+ in which we have some colors in our css files 
 
  
