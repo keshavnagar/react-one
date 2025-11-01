@@ -51,3 +51,28 @@ const style = {
 
 so we write the units in string value because in object if we write any things that is mix of number and string we use the ""
 
+now the problem in our code that is insid the file [netflixCard](../../components/NetflixSeries.jsx) follow the repeatative code so we some things like repeat of css code like in i just paste that code that follow the repetaion : 
+
+<h1 style={{ margin: "1.2rem 0rem" }}>
+<strong>Name:</strong> {name}
+</h1>
+<p style={{ margin: "1.2rem 0rem" }}>
+<strong>Rating:</strong> {rating}
+</p>
+<p style={{ margin: "1.2rem 0rem" }}>
+<strong>Desc:</strong> {description}
+</p>
+<p style={{ margin: "1.2rem 0rem" }}>
+<strong>Genre:</strong> {genre}
+</p>
+<p style={{ margin: "1.2rem 0rem" }}>
+<strong>Cast:</strong> {cast}
+ </p>
+
+ so here we repeat the same styling code in every tags
+
+ one solution we do for this like in our css file we saparate the css file for this and add a class that consist this same style in that and than we apply the same class in every tag here 
+
+ so now we remove this inline css , we do this same thing with flex property 
+
+ 

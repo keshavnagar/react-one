@@ -5,23 +5,23 @@ const SeriesCard = ({ series }) => {
     <li className="grid-item">
       <img width={400} height={200} src={img_url} alt={name} />
       <div className="grid-item-details">
-        <h1 style={{ margin: "1.2rem 0rem" }}>
+        <h1>
           <strong>Name:</strong> {name}
         </h1>
-        <p style={{ margin: "1.2rem 0rem" }}>
+        <p>
           <strong>Rating:</strong> {rating}
         </p>
-        <p style={{ margin: "1.2rem 0rem" }}>
+        <p>
           <strong>Desc:</strong> {description}
         </p>
-        <p style={{ margin: "1.2rem 0rem" }}>
+        <p>
           <strong>Genre:</strong> {genre}
         </p>
-        <p style={{ margin: "1.2rem 0rem" }}>
+        <p>
           <strong>Cast:</strong> {cast}
         </p>
         <a href={watch_url} target="_blank">
-          <button style={{ margin: "1.2rem 0rem" }}>watch now</button>
+          <button>watch now</button>
         </a>
       </div>
     </li>
