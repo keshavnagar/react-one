@@ -15,10 +15,10 @@ const SeriesCard = ({ series }) => {
     <li className="grid-item">
       <img width={400} height={200} src={img_url} alt={name} />
       <div className="grid-item-details">
-        <h1>
+        <h1  >
           <strong>Name:</strong> {name}
         </h1>
-        <p>
+        <p className={`${rating >= 8.5 ? "green" : "yellow"}`}>
           <strong>Rating:</strong> {rating}
         </p>
         <p>
@@ -31,7 +31,7 @@ const SeriesCard = ({ series }) => {
           <strong>Cast:</strong> {cast}
         </p>
         <a href={watch_url} target="_blank">
-          <button style={buttonStyle}>watch now</button>
+          <button className={`${rating >= 8.5 ? "green" : "yellow"}`}>watch now</button>
         </a>
       </div>
     </li>
