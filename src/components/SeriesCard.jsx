@@ -2,10 +2,10 @@ import "./SeriesCard.css";
 const SeriesCard = ({ series }) => {
   const { name, rating, description, genre, cast, watch_url, img_url } = series;
   const buttonStyle = {
-    backgroundColor: rating>=8.5 ? "#31694E" : "#F0E491",
+    backgroundColor: rating >= 8.5 ? "#31694E" : "#F0E491",
     padding: "10px",
     border: "0",
-    color: rating>=8.5?"#F0E491":  "#31694E" ,
+    color: rating >= 8.5 ? "#F0E491" : "#31694E",
     fontWeight: "bold",
     textTransform: "uppercase",
     letterSpacing: "2px",
@@ -33,7 +33,9 @@ const SeriesCard = ({ series }) => {
           <strong>Cast:</strong> {cast}
         </p>
         <a href={watch_url} target="_blank">
-          <button style={buttonStyle} className={`${condiStyle}`}>watch now</button>
+          <button style={buttonStyle}>
+            watch now
+          </button>
         </a>
       </div>
     </li>

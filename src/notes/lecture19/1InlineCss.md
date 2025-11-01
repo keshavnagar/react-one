@@ -90,3 +90,9 @@ suppose i delet the or comment the button style in from sereiscard.css file
 
 so in my series card.jsx compoentn i do both experiments first is cause of performance issue and second way is declare the styles in top of the return or component in const buttonStyle object
 
+so now i learn there are two ways to put conditional styling 
+
+1. is with class name 
+2. inline 
+
+in both we use a variable and than put background color or specific thin in inline we implement there
