@@ -21,7 +21,20 @@ const SeriesCard = ({ series }) => {
           <strong>Cast:</strong> {cast}
         </p>
         <a href={watch_url} target="_blank">
-          <button>watch now</button>
+          <button
+            style={{
+              backgroundColor: "var(--main-color)",
+              padding: "10px",
+              border: "0",
+              color: "var(--white-color)",
+              fontWeight: "bold",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              fontSize: "1.5rem",
+            }}
+          >
+            watch now
+          </button>
         </a>
       </div>
     </li>

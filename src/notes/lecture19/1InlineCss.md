@@ -79,4 +79,12 @@ now the problem in our code that is insid the file [netflixCard](../../component
 
  in which we have some colors in our css files 
 
- 
+ disadvantage of adding inline style : 
+
+ performance considerations:
+
+ defining inline styles directly within the jsx can lead to performance issues because a new object is created on every render. To avoid this, define styles outside of the render method or as costants
+
+like i give an example of it : 
+suppose i delet the or comment the button style in from sereiscard.css file 
+

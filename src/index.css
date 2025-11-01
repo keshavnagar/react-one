@@ -55,7 +55,7 @@ a {
   --test: #070101;
   --para-color: #504e4d;
   --btn-hover-bg-color: #003b99;
-  --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.238);
 }
 
 .container {
