@@ -2,6 +2,7 @@ import seriesData from "../api/seriesData.json";
 import SeriesCard from "./SeriesCard";
 import "../index.css";
 // import "./NetflixSeries.css"
+import styles from "../components/NetflixSeries.module.css"
 import "../components/NetflixSeries.module.css"
 const NetflixSeries = () => {
   return (
