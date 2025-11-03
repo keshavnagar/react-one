@@ -10,3 +10,6 @@ const condiStyle = rating >= 8.5 ? {styles.green} : {styles.yellow};
 because it is already written above the return statement and the portion here is used for js programming part
 one more thing we want to learn here is how we pass the class name to component that is look like in css like grid-item but when you write styles.grid-item its not valid so we use styles[`grid-item`]
 so lets do this 
+so done 
+and we also observe one thing like in css modules every class name generate an id okay
+

@@ -16,7 +16,7 @@ const SeriesCard = ({ series }) => {
   const condiStyle = rating >= 8.5 ? styles.green : styles.yellow;
   //it catch the value green or yellow and i pass through this condiStyle in our button and rating
   return (
-    <li className={styles[`grid-items`]}>
+    <li className={styles[`grid-item`]}>
       <img width={400} height={200} src={img_url} alt={name} />
       <div className={styles[`grid-item-details`]}>
         <h1>
