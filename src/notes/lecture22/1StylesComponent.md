@@ -28,4 +28,4 @@ now we implement the thing that we learn above
     so this is the example that show the real example where like we just create a styled component that is not a react componetn but look like this now
     now we do same thing with the help of template literals
     like in styled component we have if we condition look like this in case of background color that is mention in above but if we do with template literal we do not access the rating directly like in js because the template literal way is look like css things not javascript
-    
+    like vaha par ye hua ki usme jo rating pass ki apan ne button styled component ke andar usme apan ne ek prop pass kiya jisme thi rating aur rating this vo jo apan ne li thi as an props from already passed by other component so we just use that as an assign to this Button component and add this into that styling definithion in which we access this one check the conditino if the rating is greater or equal to 8.5 than it will become this nahi to this like we take rating from our component with the help of props and also take props as a parameter and use this
