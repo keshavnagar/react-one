@@ -26,4 +26,6 @@ now we implement the thing that we learn above
   });
     <Button>Watch Now</Button>
     so this is the example that show the real example where like we just create a styled component that is not a react componetn but look like this now
+    now we do same thing with the help of template literals
+    like in styled component we have if we condition look like this in case of background color that is mention in above but if we do with template literal we do not access the rating directly like in js because the template literal way is look like css things not javascript
     

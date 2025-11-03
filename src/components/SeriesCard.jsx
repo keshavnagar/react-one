@@ -14,17 +14,29 @@ const SeriesCard = ({ series }) => {
   //   letterSpacing: "2px",
   //   fontSize: "1.5rem",
   // };
-  const Button = styles.button({
-    backgroundColor: rating >= 8.5 ? "#333FFF" : "#F0F401",
-    padding: "10px",
-    border: "0",
-    borderRadius: "5px",
-    color: rating >= 8.5 ? "#F0F401" : "#333FFF",
-    fontWeight: "bold",
-    textTransform: "uppercase",
-    letterSpacing: "2px",
-    fontSize: "1.5rem",
-  });
+  const Button = styles.button`
+    background-color: ${(props) =>
+      props.rating >= 8.5 ? "#12345F" : "#F2F234"}  ;
+    padding:  10px;
+    border:  0;
+    border-radius:  5px;
+    color:  ${(props) => (props.rating >= 8.5 ? "#F2F234" : "#12345F")};
+    font-weight:  bold;
+    text-transform:  uppercase;
+    letter-spacing:  2px;
+    font-size:  1.5rem;
+  `;
+  //   const Button = styles.button({
+  //   backgroundColor: rating >= 8.5 ? "#333FFF" : "#F0F401",
+  //   padding: "10px",
+  //   border: "0",
+  //   borderRadius: "5px",
+  //   color: rating >= 8.5 ? "#F0F401" : "#333FFF",
+  //   fontWeight: "bold",
+  //   textTransform: "uppercase",
+  //   letterSpacing: "2px",
+  //   fontSize: "1.5rem",
+  // });
   const condiStyle = rating >= 8.5 ? styles.green : styles.yellow;
   //it catch the value green or yellow and i pass through this condiStyle in our button and rating
   return (
@@ -48,7 +60,7 @@ const SeriesCard = ({ series }) => {
         </p>
         <a href={watch_url} target="_blank">
           {/* <button style={Button}>watch now</button> */}
-          <Button>Watch Now</Button>
+          <Button rating={rating}>Watch Now</Button>
         </a>
       </div>
     </li>
