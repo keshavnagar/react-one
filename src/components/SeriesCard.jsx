@@ -5,7 +5,7 @@ const SeriesCard = ({ series }) => {
     <li className="bg-white rounded-xl shadow-xl overflow-hidden hover:scale-[1.02] transition-transform duration-300">
       <img src={img_url} alt={name} className="w-full h-60 object-cover" />
 
-      <div className="p-6 flex flex-col gap-2">
+      <div className="py-[3.2rem] px-[1.2rem] flex flex-col gap-2">
         <h1 className="text-xl font-semibold tracking-wide">{name}</h1>
 
         <p className="text-gray-700 text-sm">
