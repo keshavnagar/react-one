@@ -1,3 +1,4 @@
+@import "tailwindcss";
 /* base rule */
 * {
   margin: 0;
@@ -55,7 +56,7 @@ a {
   --test: #070101;
   --para-color: #504e4d;
   --btn-hover-bg-color: #003b99;
-  --box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.238);
+  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.238);
 }
 
 .container {

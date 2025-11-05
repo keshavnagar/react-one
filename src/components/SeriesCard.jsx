@@ -49,7 +49,7 @@ const SeriesCard = ({ series }) => {
         <p className={condiStyle}>
           <strong>Rating:</strong> {rating}
         </p>
-        <p>
+        <p className="text-3xl font-bold underline">
           <strong>Desc:</strong> {description}
         </p>
         <p>
