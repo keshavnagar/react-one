@@ -1,7 +1,8 @@
 import React from "react";
 
 const EventHandling = () => {
-  const handleClick = () => {
+  const handleClick = (event) => {
+    console.log(event)
     console.log("button clicked");
   };
   return (
