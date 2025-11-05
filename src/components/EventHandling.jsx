@@ -5,6 +5,10 @@ const EventHandling = () => {
     console.log(event);
     console.log("button clicked");
   };
+
+  const handleUserClick = (user) => {
+    console.log(`hello ${user}`);
+  };
   return (
     <>
       <button
@@ -18,6 +22,21 @@ const EventHandling = () => {
         className="m-8 px-5 py-2.5 bg-indigo-600 text-white font-medium rounded-full shadow hover:shadow-lg hover:bg-indigo-700 transition"
       >
         Click Here click here
+      </button>
+      <button
+        onClick={(event) => {
+          console.log("hello this is :", event);
+        }}
+        className="m-8 px-5 py-2.5 bg-indigo-600 text-white font-medium rounded-full shadow hover:shadow-lg hover:bg-indigo-700 transition"
+      >
+        inline way clicking
+      </button>
+      <button
+        onClick={() => {
+          handleUserClick("ankit");
+        }}
+      >
+        get user name
       </button>
     </>
   );
