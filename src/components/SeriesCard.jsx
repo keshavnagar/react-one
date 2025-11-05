@@ -25,7 +25,7 @@ const SeriesCard = ({ series }) => {
         </p>
 
         <a href={watch_url} target="_blank" rel="noreferrer" className="mt-3">
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-md transition-colors duration-200">
+          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 m-8 rounded-md transition-colors duration-200">
             Watch Now
           </button>
         </a>
