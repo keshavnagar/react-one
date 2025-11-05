@@ -45,7 +45,7 @@ a {
 }
 
 /* theme */
-:root {
+/* :root {
   --main-color: #0062ff;
   --supporting-color: #ebf3fe;
   --font-color: #424242;
@@ -76,7 +76,7 @@ a {
 
 .grid-three-cols {
   grid-template-columns: repeat(3, 1fr);
-} */
+} */ 
 
 /* .container {
   display: grid;
