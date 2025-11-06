@@ -19,4 +19,12 @@ to yaha par hame pata chala ki yadi ham child pe click kar rahe hai to uske pare
 
 but ham isey rok sakte hai 
 
+so now we also stopped the event propagation in react with the help of funciton that name is stopPropagation() 
+
+but ham jab parent pe click kar rahe hai to bhi to ye event propagate hora hai 
+
+but here is the catch 
+
+we need to write stop propagation in every event handlers
+
 

@@ -1,8 +1,10 @@
 const EventPropagation = () => {
-  const handleGrandParent = () => {
+  const handleGrandParent = (event) => {
+    event.stopPropagation();
     console.log("grandparent");
   };
-  const handleParent = () => {
+  const handleParent = (event) => {
+    event.stopPropagation();
     console.log("parent");
   };
   const handleChild = (event) => {
