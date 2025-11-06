@@ -1,19 +1,20 @@
 const WelcomeUser = (props) => {
+  const { onClick, onMouseEnter } = props;
   const handleGreetings = () => {
     alert(`hello bro`);
-    props.onClick();
+    onClick();
   };
   return (
     <>
       <button
-        onClick={props.onClick}
+        onClick={onClick}
         className="m-8 px-6 py-3 rounded-lg bg-gray-100 text-gray-900 font-semibold shadow hover:bg-white transition"
       >
         Click
       </button>
 
       <button
-        onMouseEnter={props.onMouseEnter}
+        onMouseEnter={onMouseEnter}
         className=" m-8 px-6 py-3 rounded-lg bg-gray-100 text-gray-900 font-semibold shadow hover:bg-white transition"
       >
         Hover here
