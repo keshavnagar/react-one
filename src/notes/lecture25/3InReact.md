@@ -27,4 +27,6 @@ but here is the catch
 
 we need to write stop propagation in every event handlers
 
+so ye tha hamara bubbling phase in react now i cover capturing phase in react also
+
 
