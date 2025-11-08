@@ -12,6 +12,7 @@ const ObjectUseState = () => {
       <ul>
         {users.map((user) => (
           <li>
+            {323}
             {user.name}-{user.age}
           </li>
         ))}
