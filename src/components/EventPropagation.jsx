@@ -1,14 +1,11 @@
 const EventPropagation = () => {
   const handleGrandParent = (event) => {
-   
     console.log("grandparent");
   };
   const handleParent = (event) => {
-   
     console.log("parent");
   };
   const handleChild = (event) => {
-   
     console.log(event);
     console.log("child");
   };

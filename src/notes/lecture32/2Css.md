@@ -65,3 +65,9 @@ and also i use {} inside {} for js inside js for first i use {} becuase of i wan
 we also add borders to both like i add that thing
 i dont use padding in the button i just use the padding inside the strong for looking cool ui
 now i add the border radius
+
+in flex start and end , the transhition is not work but in translate x 0 and transtale x 32 or any reading is use to do same thing with smooth transhtion 
+x is for horizontal direction
+
+in border i use same width border - 4 but for smooth transhition i add in first off time is transparent and in on time i add the border - 4 but this time instead of transparent i use the border-color 
+
