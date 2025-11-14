@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ToggleProjectOpt = () => {
-  const [toggle, setToggle] = useState("off");
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <div className="flex justify-center items-center h-screen w-screen">
@@ -11,7 +11,7 @@ const ToggleProjectOpt = () => {
             alert("parent");
           }}
         >
-          <div className={`${toggle==="off" ? `bg-red-600` : `bg-green-600`}`}
+          <div className={`${toggle ? `bg-red-600` : `bg-green-600`}`}
             // onClickCapture={() => {
             //   setToggle(toggle === "off" ? "on" : "off");
             //   alert("child");
