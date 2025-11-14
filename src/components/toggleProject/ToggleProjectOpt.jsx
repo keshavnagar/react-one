@@ -7,7 +7,7 @@ const ToggleProjectOpt = () => {
       <div className="flex justify-center items-center h-screen w-screen">
         <div className={` h-50 w-50 p-2 ${toggle==="off"? `bg-red-400`: `bg-green-400`}`}
           onClickCapture={() => {
-            setToggle(toggle === "off" ? "on" : "off");
+            setToggle(toggle ? "on" : "off");
             alert("parent");
           }}
         >
