@@ -12,10 +12,10 @@ const ToggleProject = () => {
           onClick={() => setToggle(toggle === "off" ? "on" : "off")}
         >
           <strong
-            className={`p-4 w-25 h-25 flex justify-center items-center  text-3xl rounded-full transition-trasform duration-600 ${
+            className={`p-4 w-25 h-25 flex justify-center items-center  text-3xl rounded-full transition-trasform duration-500 ${
               toggle === "off"
-                ? "bg-red-600 text-red-200 translate-0 "
-                : "bg-green-600 text-green-200 translate-x-21"
+                ? "bg-red-600 text-red-200 translate-0 border-4 border-transparent"
+                : "bg-green-600 text-green-200 translate-x-21 border-green-200 border-4"
             }`}
           >
             {toggle}
