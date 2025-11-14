@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const ToggleProjectOpt = () => {
   const [toggle, setToggle] = useState(false);
-
+  const checkToggle = toggle ? "on" : "off"
   return (
     <>
       <div className="flex justify-center items-center h-screen w-screen">
@@ -13,7 +13,7 @@ const ToggleProjectOpt = () => {
           }}
         >
           <div className={`${toggle ? `bg-red-600` : `bg-green-600`}`}>
-            <span>{toggle ? "on" : "off"}</span>
+            <span>{checkToggle}</span>
           </div>
         </div>
       </div>
