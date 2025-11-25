@@ -22,5 +22,13 @@ so the state is false than it return the false means nothing is visible to scree
 
 but if the state is true than it returns its second value , because our second value is true than it will be returned
 
+so this time we do same work with second button 
+
+but here in my mind says why we use another state like if we handle this with same state 
+
+but the thing is here if i handle this also with same state than it is value to depend on both button's line suppose when i click on first button it is also change the second button work 
+
+its like the first button work is to hide the logged in or not logged in and the second button work is set the name of user so if i give the same state to both of them than it is dependent to each other if first says set the user name than it is also logged in that user but we do not say them to logged in or not we just says your work is just set the user name not manipulate the login work it is already assign to is logged in state so that's why we saparate the states
+
 
 
