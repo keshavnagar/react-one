@@ -1,0 +1,16 @@
+so in my code of that is ShortCircuit.jsx in which i add the logic of two states where one state is handle the true false and second is handle the logic of a string storage variable if the toggle is true than the string storage variable change their value 
+
+but same thing we do with our concept called short circuit evalution in which we just have a signlle state in which we set the value or true false and when we click on our button the button trigger the funciton that is set the value to true and false 
+
+and same if the condition is true than we return the paragraph tag other wise not 
+
+so its like short circutit as far as i understood
+
+so more clear way i deep down in this problem so here we have one state that's toggled when we click on button and if the button is clicked than we just set the value of state from true to false and false to true
+
+so here we want one result 
+
+so in ampersand operator if the first value is true than it checks second and if both true than it return second
+
+if the first is false than it returns first value
+
