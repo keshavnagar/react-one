@@ -14,3 +14,13 @@ so in ampersand operator if the first value is true than it checks second and if
 
 if the first is false than it returns first value
 
+so the logic is just little bit in which i created state and set the initial value to false 
+
+and than i just created a logic with && operator in which i just add with the paragraph to state 
+
+so the state is false than it return the false means nothing is visible to screen 
+
+but if the state is true than it returns its second value , because our second value is true than it will be returned
+
+
+
