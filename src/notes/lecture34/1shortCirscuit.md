@@ -30,5 +30,7 @@ but the thing is here if i handle this also with same state than it is value to 
 
 its like the first button work is to hide the logged in or not logged in and the second button work is set the name of user so if i give the same state to both of them than it is dependent to each other if first says set the user name than it is also logged in that user but we do not say them to logged in or not we just says your work is just set the user name not manipulate the login work it is already assign to is logged in state so that's why we saparate the states
 
+so i also set the set user logic in which i just add the logic of state creation default i give the false and than toggle with the help onclick and set user funciton and than it reverse the value of state every time when we click and than we just add the value paragraph tag is value is true than paragraph returned otherwise first value is returned if the state value is false
 
+we have clear user button so may be i made mistake so we have two button we do not use the ! operator there we just first set user button we just set the value to true and clear user we use false , okya here we just creat the logic in this commit 
 

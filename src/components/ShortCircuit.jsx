@@ -16,12 +16,15 @@ const ShortCircuit = () => {
           Toggle Login State
         </button>
         <button
-          onClick={() => setUser(!user)}
+          onClick={() => setUser(true)}
           className="bg-[#3D3B30] text-[#E7E247] p-3 cursor-pointer  rounded-2xl"
         >
           Set User
         </button>
-        <button className="bg-[#3D3B30] text-[#E7E247] p-3 cursor-pointer  rounded-2xl">
+        <button
+          onClick={() => setUser(false)}
+          className="bg-[#3D3B30] text-[#E7E247] p-3 cursor-pointer  rounded-2xl"
+        >
           Clear User
         </button>
       </div>
