@@ -34,3 +34,37 @@ so i also set the set user logic in which i just add the logic of state creation
 
 we have clear user button so may be i made mistake so we have two button we do not use the ! operator there we just first set user button we just set the value to true and clear user we use false , okya here we just creat the logic in this commit 
 
+but but but we dont use this condition && operator becuase we learn just them with the that exmaple 
+
+now we understand the ? this question mark operator, so the work of questrion mark operator is when the value is null and undefine the first value i said than it returns second value other wise first values so we remove my logic that is right but not practical in this situation we need to write the logic with ? operator
+
+so ?? iska system hamene dekha jaise hee yadi apni value initially set hai "" to bhi ye isey true manega aur isey print kar dega second wale ko print nahi karenga swayam print ho jayega but jab ham isey bolenge ki aap print ho to jab ham ispe click karenge to ye apne aapp me print hoga samnjha ya nahi ? 
+
+me firs se samjhata hu 
+
+suppose apne pass hai abhi initially 
+
+const [user, setUser] = useState("")
+
+to abhi user ki value hai "" it means jo ?? ye value hai vo return nahi karegi iski right conditional value ko ye return karegi iski left conditional value ko means 
+
+user ?? <p>right conditional value</p>
+
+to abhi user = ""
+
+to ye undefine and null dono hee nahi hai to ye swayam return ho jayega na ki return karega second value ko 
+
+aur yadi ham likhde set user ("arijit") to ye to pahle se hee null nahi tha means "" ye tha to ye "" isko aur "arijit" dono ko true manega aur kabhi right conditional value return karega hee nahi yadi me use state declare karte time undefined ya null likhdu to ye jarur return kar dega iski second value to isey kahte hai short circuit evaluation ka second operator that's called ? operator
+
+ab apne ko kya karna padega set user ke liye just click kar denge aur value ko set kar denge but ab apan ye chahte hai ki click karne par jo right hand side me likha hai vo apne ko pradarshit ho to vo kasei karenge apan ? 
+
+to paasaa fir se palat gaya hai jo me soch raha tha vo ?? to ye vala operator tha jise mene sahi samjha but abhi apan us video ke reference se baat ? is operator ki kar rahe the ki isme yadi "" to isey ye false manega aur second ki value ko return karega like suppose ye start me "" hai to ye false mana jayega aur jab me user ko set karunga arijit to ye fir ye true mana jayega aur fir ye second value ko return karega 
+
+so yaha par ek bat aur dhyan rakhni hai ki jab ham dekhte hai ki hamari jo value false hai to condition konsi chalti hai jo : iske bad lihhi ho but yadi true hai to conditino chalti hai jo ? iske just bad likhi hai to ye difference hota hai 
+
+so apne ko ek work aur karna hai ki toggle wale me to apan ! iska user karke true false kar rahe the but yaha par apan toggle nahi kar sakte signle state me to apan ek work karnege ki jo apane pass dusra button hai usse stat ko firse empty state me le jayenege okay
+
+than we have the result
+
+
+
