@@ -4,7 +4,7 @@ const IncDec = () => {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(0);
   const handleStep = (e) => {
-    setStep(parseInt(e.target.value));
+    setStep(Number(e.target.value));
   };
 
   return (
@@ -17,8 +17,8 @@ const IncDec = () => {
       <label htmlFor="input">Enter Steps</label>
       <input
         id="input"
-        onChange={(e) => handleStep(e)}
         value={step}
+        onChange={(e) => handleStep(e)}
         type="number"
       />
       <button
