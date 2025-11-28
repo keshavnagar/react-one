@@ -23,15 +23,17 @@ const IncDec = () => {
       />
       <button
         onClick={() => {
-          count <= 100 - step ? setCount(count + step) : setCount(count);
+          setCount(count + step);
         }}
+        disabled={count >= 100}
       >
         Inc
       </button>
       <button
         onClick={() => {
-          count >= step ? setCount(count - step) : setCount(count);
+          setCount(count - step);
         }}
+        disabled={count <= 0}
       >
         Dec
       </button>
