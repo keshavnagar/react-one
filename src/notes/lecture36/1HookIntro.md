@@ -36,3 +36,6 @@ length: 2
 
 # so now we see the change where we see the first value as 89 that we pass in our Counter.jsx file
 
+# so it means the useState() return an array with two values 
+
+# now we actual implement the count state in our counter.jsx file
