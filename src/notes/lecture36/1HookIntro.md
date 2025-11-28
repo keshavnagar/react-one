@@ -39,3 +39,36 @@ length: 2
 # so it means the useState() return an array with two values 
 
 # now we actual implement the count state in our counter.jsx file
+
+import { useState } from "react";
+
+const Counter = () => {
+  const [count, setCount] = useState(0);
+  const handleCounter = () => {
+    setCount(count + 1);
+    console.log(count);
+  };
+  console.log(count);
+  return (
+    <section className="flex flex-col justify-center items-center gap-10 bg-[#468189] h-screen">
+      <h1 className="text-6xl text-[#F4E9CD]">UseState Hook</h1>
+      <p className="text-4xl text-[#F4E9CD]">{count}</p>
+      <button
+        onClick={() => handleCounter()}
+        className="bg-[#F4E9CD] p-4 text-[#468189] font-bold text-2xl rounded-2xl shadow-2xl"
+      >
+        Increment
+      </button>
+    </section>
+  );
+};
+export default Counter;
+
+# dekho jo mene example samajhaya ki jab ham first time code run karte hai to jo handler function hai vo to click karne ke baad hi run hoga to vo first time me to ayega nahi 
+
+# jab ham click karenge to jo funciton ke andar hai setcoutn function aur uske bad jo console.log line hai uska count nahi badhega balki jab new render hoga tabhi vo count increase hoga aur jo console.log hai count vo as it is dikhayi dega, ab jab vo function khatam hoga tab fir se re render hoga aur fir jo value hai hamari count ki vo increase jo hui hai vo set hogi new render me aur fir count one hoga 
+
+# to is prakar se jo inner value hai vo hamesha previous outer value jaisee hee rahegi kyuki vo new render ke pahle hee execute ho jati hai 
+
+# hamara jo r4 hai vo isee chij ka example hai 
+
