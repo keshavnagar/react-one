@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Counter = () => {
-  console.log(useState());
+  console.log(useState(89));
   return (
     <section className="flex flex-col justify-center items-center gap-10 bg-[#468189] h-screen">
       <h1 className="text-6xl text-[#F4E9CD]">UseState Hook</h1>

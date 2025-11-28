@@ -27,3 +27,12 @@ length: 2
 [[Prototype]]: Array(0)
 
 # isme pahli chij undefine hai suppose yadi me us use state ke andar yadi 5 likhdu to yaha iski value apne ko dikh jayega
+
+(2) [89, ƒ]
+0: 89
+1: ƒ ()
+length: 2
+[[Prototype]]: Array(0)
+
+# so now we see the change where we see the first value as 89 that we pass in our Counter.jsx file
+
