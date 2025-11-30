@@ -18,7 +18,7 @@ const IncDec = () => {
       <input
         id="input"
         value={step}
-        onChange={(e) => handleStep(e)}
+        // onChange={(e) => handleStep(e)}
         type="number"
       />
       <button
