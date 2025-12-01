@@ -32,3 +32,5 @@ like one more thing i understood jab bhi browser screen pe output nahi dikhta ha
 like yaha par console error dera hai ki handlesubmit define nahi ahi to ye things right aproach hai 
 
 one more thing here we are first make the control forms in a way of uncontrolled component way 
+
+so apan ab uncontrol way me jo input value hai vo apan console pe show karenge without react control component feature like state and so on 
