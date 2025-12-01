@@ -49,3 +49,14 @@ ek chij aur jo mujhe confusion huyi ki jab hamne handle submit function define k
 
 but yaha par ham direct onchange funciton ki help se ek funcito ki help se value access kar rahe hai sath hee uski value ko bhi access hee nahi balki change bhi kar rahe hai 
 
+so jo chij aa rahi thi dom kee help se input id ke through value ko access karne ki ab vohi chij ham access kar rahe hai through state and state updation simple
+
+here we do another experiment like now we have controll component okay but in before little time we have uncontrol element and we try to create them control component to add the value attribute , but if we remove the this value attribute than we are try to create this into an uncotrolled component , so first we remove and than we read the error than we know what actually happening here 
+
+installHook.js:1 A component is changing a controlled input to be uncontrolled. This is likely caused by the value changing from a defined to undefined, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: 
+
+so here it says ki jo cpoment hai vo control input se uncontrolled  ho raha hai ye isliey hora hai kyuki jo value define se undefine ki taraf ja raha hai like kyuki ham value attribute ka use nahi kar rahe filhar jo abhi hame input pe value mil rahi hai vo bas jo ham type kar rahe hai e.target.value hai aisa kah sakte hai but jab vo controlled that to us value me state thi apni isliye aisa hora tha to ye error isliye aa rahi hai ki koi ek value honi chahiye ya to aap control karlo ya fir uncontroll its more interesting yar 
+
+like yadi ham state ki jagah value = "jar" bhi likhte tab bhi react ko aisa lagega ki ye mujse power lene ki koshish ki ja rahi hai 
+
+bhale hee ham ye karke dekte hai taki concept acches se samajh aa jaye
