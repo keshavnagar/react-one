@@ -60,3 +60,14 @@ so here it says ki jo cpoment hai vo control input se uncontrolled  ho raha hai 
 like yadi ham state ki jagah value = "jar" bhi likhte tab bhi react ko aisa lagega ki ye mujse power lene ki koshish ki ja rahi hai 
 
 bhale hee ham ye karke dekte hai taki concept acches se samajh aa jaye
+
+# pros and cons of controlled components: 
+
+# pros: 
+1. react has complete control over the input value, making it straight forward to implement features like valudation and conditional formatting based on state.
+2. easier to handle form submission and integration with react's lifecycle methods.
+3. enables clear data flow and centralized state management within react components.
+
+# cons: 
+1. requires more code compared to uncontrolled components due to state management
+2. can lead to more re renders if not optimized, although react handles thing efficiently in many cases
