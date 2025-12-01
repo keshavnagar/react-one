@@ -7,8 +7,7 @@ const ControlForm = () => {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
-    const inputValue = document.getElementById(`inputName`).value;
-    console.log(inputValue);
+    console.log(name)
   };
   return (
     <section>
