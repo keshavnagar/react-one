@@ -37,3 +37,15 @@ so apan ab uncontrol way me jo input value hai vo apan console pe show karenge w
 
 ab yaha par ham late hai twist , like jaise hee me yadi value attribute ka use karunga to power dhire dhire shift hoga uncontrollled se controlled component ke taraf like jo power abhi dom ke pass tha ab vo ayega react ki taraf dekte hai kaise me batata hu 
 
+so jaise hee hamne value attribute add kiya hame below error dikhi 
+
+installHook.js:1 You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+
+to yaha par hamne ek aur chij dekhi ki jab ham input field pe click kar rahe hai to ham field me kuch change bhi nahi kar parahe hai to is error ka means yai hai ki aapn onchange method use karo yadi apko change karna hai aur isey changeable rakhna hai to like iska means ye hai ki dhire dhire ham react ke power bubble me aa rahe hai 
+
+to ab ham onchange method ka use karke isey puri tarah se controlled bana hee dete hia 
+
+ek chij aur jo mujhe confusion huyi ki jab hamne handle submit function define kiya tha dom ki help se to ham vaha par form ka jo funciton tha uski help se uske input ki value access kar rahe the throught input ki id
+
+but yaha par ham direct onchange funciton ki help se ek funcito ki help se value access kar rahe hai sath hee uski value ko bhi access hee nahi balki change bhi kar rahe hai 
+
