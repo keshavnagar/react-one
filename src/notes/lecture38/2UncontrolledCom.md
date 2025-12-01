@@ -34,3 +34,6 @@ like yaha par console error dera hai ki handlesubmit define nahi ahi to ye thing
 one more thing here we are first make the control forms in a way of uncontrolled component way 
 
 so apan ab uncontrol way me jo input value hai vo apan console pe show karenge without react control component feature like state and so on 
+
+ab yaha par ham late hai twist , like jaise hee me yadi value attribute ka use karunga to power dhire dhire shift hoga uncontrollled se controlled component ke taraf like jo power abhi dom ke pass tha ab vo ayega react ki taraf dekte hai kaise me batata hu 
+
