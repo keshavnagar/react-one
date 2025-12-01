@@ -25,3 +25,10 @@ form data is accessed through refs or dom traversal methods, not through react s
 
 like here ther is not directly handled by react but the dom itself
 
+now i create the the file controlledform.jsx in and implement the practical thing that i understand in theory
+
+like one more thing i understood jab bhi browser screen pe output nahi dikhta hai tu dora dora code pe wapas kyu aa jata hai tujhe check karna chahiye console screen vaha par kya error show ho rahi hai ye sari things tujhe dekhni chahiye 
+
+like yaha par console error dera hai ki handlesubmit define nahi ahi to ye things right aproach hai 
+
+one more thing here we are first make the control forms in a way of uncontrolled component way 
