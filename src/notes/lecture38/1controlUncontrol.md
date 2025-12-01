@@ -30,5 +30,5 @@ jab bhi apan event handler lagate hai react ke jaise ki onChange, onBlur etc. to
 # state update: 
 to ye hai third step like jab bhi input field me apan kuch bhi likhenge apna onchange funciton chalega aur ye state update method setState ko bhi chalayega aur jab ye chalega to ye track karenga input field ki value ko with the help of e.target.value aur isey store karega state me aur us state ki value ko assign kar dega iski value attribute me
 
-
+in next md file we will learn about uncontrolled component
 
