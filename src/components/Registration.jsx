@@ -32,6 +32,18 @@ const Registration = () => {
   const handleMobileNum = (e) => {
     setMobileNum(e.target.value);
   };
+
+  const handleForm = (event) => {
+    event.preventDefault();
+    const user = {
+      firstName,
+      lastName,
+      email,
+      password,
+      mobileNum,
+    };
+    console.log(user);
+  };
   return (
     <>
       <p>
@@ -43,7 +55,7 @@ const Registration = () => {
         number is
         <span className="text-red-500">{mobileNum}</span>
       </p>
-      <form className="flex flex-col gap-2">
+      <form className="flex flex-col gap-2" onSubmit={handleForm}>
         <label>
           First Name:{" "}
           <input type="text" value={firstName} onChange={handleFirstName} />
