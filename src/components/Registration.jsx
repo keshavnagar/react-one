@@ -14,23 +14,28 @@ const Registration = () => {
   const [email, setEmail] = useState("abcxyz9754@gmail.com");
   const [password, setPassword] = useState("12345");
   const [mobileNum, setMobileNum] = useState("1234567890");
-  //   const handleForm = () => {
-  //     setUse(user.firstName)
-  //   }
-  const handleFirstName = (e) => {
-    setFirstName(e.target.value);
-  };
-  const handleLastName = (e) => {
-    setLastName(e.target.value);
-  };
-  const handleEmail = (e) => {
-    setEmail(e.target.value);
-  };
-  const handlePassword = (e) => {
-    setPassword(e.target.value);
-  };
-  const handleMobileNum = (e) => {
-    setMobileNum(e.target.value);
+  const handleInput = (e) => {
+    const { name, value } = e.target;
+    switch (name) {
+      case "firstName":
+        setFirstName(value);
+        break;
+      case "lastName":
+        setLastName(value);
+        break;
+      case "email":
+        setEmail(value);
+        break;
+      case "password":
+        setPassword(value);
+        break;
+      case "mobileNum":
+        setMobileNum(value);
+        break;
+      default:
+        alert("wrong option");
+        break;
+    }
   };
 
   const handleForm = (event) => {
@@ -58,22 +63,48 @@ const Registration = () => {
       <form className="flex flex-col gap-2" onSubmit={handleForm}>
         <label>
           First Name:{" "}
-          <input type="text" value={firstName} onChange={handleFirstName} />
+          <input
+            type="text"
+            name="firstName"
+            value={firstName}
+            onChange={handleInput}
+          />
         </label>
         <label>
           Last Name:{" "}
-          <input type="text" value={lastName} onChange={handleLastName} />
+          <input
+            type="text"
+            name="lastName"
+            value={lastName}
+            onChange={handleInput}
+          />
         </label>
         <label>
-          Email: <input type="email" value={email} onChange={handleEmail} />
+          Email:{" "}
+          <input
+            type="email"
+            name="email"
+            value={email}
+            onChange={handleInput}
+          />
         </label>
         <label>
           Password:{" "}
-          <input type="password" value={password} onChange={handlePassword} />
+          <input
+            type="password"
+            name="password"
+            value={password}
+            onChange={handleInput}
+          />
         </label>
         <label>
           Mobile Number:{" "}
-          <input type="number" value={mobileNum} onChange={handleMobileNum} />
+          <input
+            type="number"
+            name="mobileNum"
+            value={mobileNum}
+            onChange={handleInput}
+          />
         </label>
         <button type="submit">Sign Up</button>
       </form>
