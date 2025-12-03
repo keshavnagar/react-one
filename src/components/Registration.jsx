@@ -1,19 +1,13 @@
 import { useState } from "react";
 
 const Registration = () => {
-  //   const [user, setUser] = useState({
-  //     firstName: "arjun",
-  //     lastName: "sharma",
-  //     email: "abcxyz9754@gmail.com",
-  //     password: "12345",
-  //     mobileNum: 1234567890,
-  //   });
-
-  const [firstName, setFirstName] = useState("arjun");
-  const [lastName, setLastName] = useState("sharma");
-  const [email, setEmail] = useState("abcxyz9754@gmail.com");
-  const [password, setPassword] = useState("12345");
-  const [mobileNum, setMobileNum] = useState("1234567890");
+  const [user, setUser] = useState({
+    firstName: "arjun",
+    lastName: "sharma",
+    email: "abcxyz9754@gmail.com",
+    password: "12345",
+    mobileNum: 1234567890,
+  });
   const handleInput = (e) => {
     const { name, value } = e.target;
     switch (name) {
