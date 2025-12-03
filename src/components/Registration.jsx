@@ -12,19 +12,19 @@ const Registration = () => {
     const { name, value } = e.target;
     switch (name) {
       case "firstName":
-        setFirstName(value);
+        setUser(value);
         break;
       case "lastName":
-        setLastName(value);
+        setUser(value);
         break;
       case "email":
-        setEmail(value);
+        setUser(value);
         break;
       case "password":
-        setPassword(value);
+        setUser(value);
         break;
       case "mobileNum":
-        setMobileNum(value);
+        setUser(value);
         break;
       default:
         alert("wrong option");
@@ -48,11 +48,11 @@ const Registration = () => {
       <p>
         My name is
         <span className="text-red-500">
-          {firstName} {lastName}
+          {user.firstName} {user.lastName}
         </span>
-        , email is <span className="text-red-500">{email} </span> and mobile
-        number is
-        <span className="text-red-500">{mobileNum}</span>
+        , email is <span className="text-red-500">{user.email} </span> and
+        mobile number is
+        <span className="text-red-500">{user.mobileNum}</span>
       </p>
       <form className="flex flex-col gap-2" onSubmit={handleForm}>
         <label>
@@ -60,7 +60,7 @@ const Registration = () => {
           <input
             type="text"
             name="firstName"
-            value={firstName}
+            value={user.firstName}
             onChange={handleInput}
           />
         </label>
@@ -69,7 +69,7 @@ const Registration = () => {
           <input
             type="text"
             name="lastName"
-            value={lastName}
+            value={user.lastName}
             onChange={handleInput}
           />
         </label>
@@ -78,7 +78,7 @@ const Registration = () => {
           <input
             type="email"
             name="email"
-            value={email}
+            value={user.email}
             onChange={handleInput}
           />
         </label>
@@ -87,7 +87,7 @@ const Registration = () => {
           <input
             type="password"
             name="password"
-            value={password}
+            value={user.password}
             onChange={handleInput}
           />
         </label>
@@ -96,7 +96,7 @@ const Registration = () => {
           <input
             type="number"
             name="mobileNum"
-            value={mobileNum}
+            value={user.mobileNum}
             onChange={handleInput}
           />
         </label>
