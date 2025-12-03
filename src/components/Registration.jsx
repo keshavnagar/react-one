@@ -10,7 +10,7 @@ const Registration = () => {
   });
   const handleInput = (e) => {
     const { name, value } = e.target;
-    
+    setUser((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleForm = (event) => {
@@ -30,7 +30,7 @@ const Registration = () => {
       </p>
       <form className="flex flex-col gap-2" onSubmit={handleForm}>
         <label>
-          First Name:{" "}
+          First Name: 
           <input
             type="text"
             name="firstName"
@@ -39,7 +39,7 @@ const Registration = () => {
           />
         </label>
         <label>
-          Last Name:{" "}
+          Last Name: 
           <input
             type="text"
             name="lastName"
@@ -48,7 +48,7 @@ const Registration = () => {
           />
         </label>
         <label>
-          Email:{" "}
+          Email: 
           <input
             type="email"
             name="email"
@@ -57,7 +57,7 @@ const Registration = () => {
           />
         </label>
         <label>
-          Password:{" "}
+          Password: 
           <input
             type="password"
             name="password"
@@ -66,7 +66,7 @@ const Registration = () => {
           />
         </label>
         <label>
-          Mobile Number:{" "}
+          Mobile Number: 
           <input
             type="number"
             name="mobileNum"
