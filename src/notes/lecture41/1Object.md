@@ -14,5 +14,25 @@ to yaha par apan ek prakar se object ke andar jo ...prev likh rahe hai uska ye m
 12. and than we implements successfully
 13. ab ek bat aur ki apan pichhli bar alag se object banake console kar rahe the handle form me to vo obejct banane ki bhi need nahi hai directly usey bas console.log kardo jo bhi apan ne state me banaya hai 
 14. and aise hee tu note kiya kar jo bhi tu karta hai 
-15. agla mission hai apna ki jo vo karaye usey implement karna isey hata ke 
- 
+15. agla mission hai apna ki jo vo karaye usey implement karna isey hata ke
+
+    switch (name) {
+      case "firstName":
+        setUser((prev) => ({ ...prev, firstName: value }));
+        break;
+      case "lastName":
+        setUser((prev) => ({ ...prev, lastName: value }));
+        break;
+      case "email":
+        setUser((prev) => ({ ...prev, email: value }));
+        break;
+      case "password":
+        setUser((prev) => ({ ...prev, password: value }));
+        break;
+      case "mobileNum":
+        setUser((prev) => ({ ...prev, mobileNum: value }));
+        break;
+      default:
+        alert("wrong option");
+        break;
+    }

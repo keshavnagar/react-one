@@ -10,26 +10,7 @@ const Registration = () => {
   });
   const handleInput = (e) => {
     const { name, value } = e.target;
-    switch (name) {
-      case "firstName":
-        setUser((prev) => ({ ...prev, firstName: value }));
-        break;
-      case "lastName":
-        setUser((prev) => ({ ...prev, lastName: value }));
-        break;
-      case "email":
-        setUser((prev) => ({ ...prev, email: value }));
-        break;
-      case "password":
-        setUser((prev) => ({ ...prev, password: value }));
-        break;
-      case "mobileNum":
-        setUser((prev) => ({ ...prev, mobileNum: value }));
-        break;
-      default:
-        alert("wrong option");
-        break;
-    }
+    
   };
 
   const handleForm = (event) => {
