@@ -12,19 +12,19 @@ const Registration = () => {
     const { name, value } = e.target;
     switch (name) {
       case "firstName":
-        setUser(value);
+        setUser((prev) => ({ ...prev, firstName: value }));
         break;
       case "lastName":
-        setUser(value);
+        setUser((prev) => ({ ...prev, lastName: value }));
         break;
       case "email":
-        setUser(value);
+        setUser((prev) => ({ ...prev, email: value }));
         break;
       case "password":
-        setUser(value);
+        setUser((prev) => ({ ...prev, password: value }));
         break;
       case "mobileNum":
-        setUser(value);
+        setUser((prev) => ({ ...prev, mobileNum: value }));
         break;
       default:
         alert("wrong option");
@@ -34,13 +34,6 @@ const Registration = () => {
 
   const handleForm = (event) => {
     event.preventDefault();
-    const user = {
-      firstName,
-      lastName,
-      email,
-      password,
-      mobileNum,
-    };
     console.log(user);
   };
   return (
