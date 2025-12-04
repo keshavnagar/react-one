@@ -45,7 +45,10 @@ const App = () => {
       {/* <Counter/> */}
       {/* <IncDec/> */}
       {/* <ControlForm /> */}
+
       <Registration />
+
+      {/* <Registration/> */}
     </>
   );
 };
